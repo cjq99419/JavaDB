@@ -34,7 +34,7 @@ public class JDBCDemo4 {
                 student.classes = resultSet.getInt("class");
                 student.grades = resultSet.getInt("grade");
                 student.age = resultSet.getInt("age");
-                System.out.println(student.toString());
+                System.out.println(student.toString()+'A');
             }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
